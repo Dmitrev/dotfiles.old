@@ -1,0 +1,7 @@
+alias tcli='docker exec -it tickr-app-backend-fpm bash'
+alias ttest='docker exec -it tickr-app-backend-fpm vendor/bin/phpunit'
+alias artisan='docker exec -it tickr-app-backend-fpm php artisan'
+alias cs='docker exec -it tickr-app-backend-fpm vendor/bin/phpcs --standard=phpcs/TickrStandard'
+alias cb='docker exec -it tickr-app-backend-fpm vendor/bin/phpcbf --standard=phpcs/TickrStandard'
+alias csa='docker exec -it tickr-app-backend-fpm vendor/bin/phpcs --standard=phpcs/TickrStandard app'
+alias cba='docker exec -it tickr-app-backend-fpm vendor/bin/phpcbf --standard=phpcs/TickrStandard app'
