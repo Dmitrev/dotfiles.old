@@ -19,6 +19,29 @@ Install command
 brew install rcm
 ```
 
+## [NeoVim](https://github.com/neovim/neovim)
+
+```
+brew install neovim
+```
+
+## [Node](https://github.com/nodejs/node)
+
+```
+brew install node
+```
+
+## [Python 3](https://www.python.org/download/releases/3.0/)
+
+```
+brew install python
+```
+
+install vim plugin:
+
+```
+python3 -m pip install --user --upgrade pynvim
+```
 
 # Installation
 
